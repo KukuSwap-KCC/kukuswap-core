@@ -1,0 +1,1630 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/governance/Timelock.sol": {
+      "lastModificationDate": 1626080848187,
+      "contentHash": "b6f213ae78ec77f3c2a02c4b8f916a10",
+      "sourceName": "contracts/governance/Timelock.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Timelock"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1626083614055,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/MasterChef.sol": {
+      "lastModificationDate": 1626084140559,
+      "contentHash": "d1445047dcba49a880181b4509ad4ed3",
+      "sourceName": "contracts/MasterChef.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "@openzeppelin/contracts/utils/EnumerableSet.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./KuKuToken.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IMigratorChef",
+        "MasterChef"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1626083618479,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1626083618480,
+      "contentHash": "33e22842646d746e5c4124c2fdc051aa",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@openzeppelin/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1626083614087,
+      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
+      "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1626083614049,
+      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/KuKuToken.sol": {
+      "lastModificationDate": 1626083773231,
+      "contentHash": "58405c0d206b47394b0593240d9d1381",
+      "sourceName": "contracts/KuKuToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KuKuToken"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1626083614086,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1626083614085,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1626083618480,
+      "contentHash": "8065b340476f61365c076897199425f1",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/KuKuRoll.sol": {
+      "lastModificationDate": 1626083848490,
+      "contentHash": "55216acfed9a0f31ec040adea1925c06",
+      "sourceName": "contracts/KuKuRoll.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "./uniswapv2/interfaces/IUniswapV2Pair.sol",
+        "./uniswapv2/interfaces/IUniswapV2Router01.sol",
+        "./uniswapv2/interfaces/IUniswapV2Factory.sol",
+        "./uniswapv2/libraries/UniswapV2Library.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KuKuRoll"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1626080854057,
+      "contentHash": "f752430d5f09b9f563592f001dafc406",
+      "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1626080854057,
+      "contentHash": "de449a0015279bb9d53b5ae3f4042e3a",
+      "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1626080854057,
+      "contentHash": "d198bcd7fe50362c13205a49a264308d",
+      "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/libraries/UniswapV2Library.sol": {
+      "lastModificationDate": 1626080854057,
+      "contentHash": "86fd1ccb6ab641d2971e5f78dc34e095",
+      "sourceName": "contracts/uniswapv2/libraries/UniswapV2Library.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2Pair.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "UniswapV2Library"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/libraries/SafeMath.sol": {
+      "lastModificationDate": 1626080854055,
+      "contentHash": "35c589973c3d246950ab64d2f23d59d4",
+      "sourceName": "contracts/uniswapv2/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "SafeMathUniswap"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/UniswapV2Router02.sol": {
+      "lastModificationDate": 1626080848196,
+      "contentHash": "ba92624ba3edde77e6ec89d0d76141fe",
+      "sourceName": "contracts/uniswapv2/UniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/UniswapV2Library.sol",
+        "./libraries/SafeMath.sol",
+        "./libraries/TransferHelper.sol",
+        "./interfaces/IUniswapV2Router02.sol",
+        "./interfaces/IUniswapV2Factory.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWETH.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UniswapV2Router02"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1626080854055,
+      "contentHash": "3c1a6bb1e681b5aa02aaf54731f6970f",
+      "sourceName": "contracts/uniswapv2/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1626080854057,
+      "contentHash": "494b1d2155ee266e41b11ef57d88e90e",
+      "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/interfaces/IERC20.sol": {
+      "lastModificationDate": 1626080854058,
+      "contentHash": "e1618a34e4b67aedf5e9dfe4c83adc7b",
+      "sourceName": "contracts/uniswapv2/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20Uniswap"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/interfaces/IWETH.sol": {
+      "lastModificationDate": 1626080854057,
+      "contentHash": "544f01449bed2a6dbe2a5addb8a6815e",
+      "sourceName": "contracts/uniswapv2/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/UniswapV2Pair.sol": {
+      "lastModificationDate": 1626080848197,
+      "contentHash": "f8f38612aca7c47863c819fea4f47690",
+      "sourceName": "contracts/uniswapv2/UniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UniswapV2ERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IUniswapV2Factory.sol",
+        "./interfaces/IUniswapV2Callee.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "IMigrator",
+        "UniswapV2Pair"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/UniswapV2ERC20.sol": {
+      "lastModificationDate": 1626083375340,
+      "contentHash": "58fbfaf218e44dcf5bc3c423f5e837fe",
+      "sourceName": "contracts/uniswapv2/UniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UniswapV2ERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/libraries/Math.sol": {
+      "lastModificationDate": 1626080854055,
+      "contentHash": "efb1839b8c35a166002e719a82d280ed",
+      "sourceName": "contracts/uniswapv2/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1626080854056,
+      "contentHash": "f0bab25e924fb824712fde36dbe3567f",
+      "sourceName": "contracts/uniswapv2/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1626080854057,
+      "contentHash": "80d689cf8bc5df93a87bff04028314be",
+      "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2Callee.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Callee"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/UniswapV2Factory.sol": {
+      "lastModificationDate": 1626080848196,
+      "contentHash": "46265e38ab46aa0405fb92545a08b64c",
+      "sourceName": "contracts/uniswapv2/UniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./UniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "=0.6.12"
+      ],
+      "artifacts": [
+        "UniswapV2Factory"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/Migrator.sol": {
+      "lastModificationDate": 1626080839176,
+      "contentHash": "387bbdbf55742a2f2d980bacd3180566",
+      "sourceName": "contracts/Migrator.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./uniswapv2/interfaces/IUniswapV2Pair.sol",
+        "./uniswapv2/interfaces/IUniswapV2Factory.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Migrator"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/KuKuMaker.sol": {
+      "lastModificationDate": 1626083879175,
+      "contentHash": "2cdb099503aace964362920985ea5fed",
+      "sourceName": "contracts/KuKuMaker.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/SafeMath.sol",
+        "./libraries/SafeERC20.sol",
+        "./uniswapv2/interfaces/IUniswapV2ERC20.sol",
+        "./uniswapv2/interfaces/IUniswapV2Pair.sol",
+        "./uniswapv2/interfaces/IUniswapV2Factory.sol",
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KuKuMaker"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1626080848183,
+      "contentHash": "bd66242b2b2e2f0bb5d7d525c81816f6",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SafeMath",
+        "SafeMath128"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/libraries/SafeERC20.sol": {
+      "lastModificationDate": 1626080848187,
+      "contentHash": "e623ab5222f453f436b7ddb0ab303fc2",
+      "sourceName": "contracts/libraries/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/uniswapv2/interfaces/IUniswapV2ERC20.sol": {
+      "lastModificationDate": 1626080854057,
+      "contentHash": "58593c09900e9d1acb2f19d86544e0a7",
+      "sourceName": "contracts/uniswapv2/interfaces/IUniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2ERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/Ownable.sol": {
+      "lastModificationDate": 1626080839176,
+      "contentHash": "2c1c60494164c8cafe63a9d4f89b8b62",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Ownable",
+        "OwnableData"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1626080848183,
+      "contentHash": "06bb2f617b145cb9d16372e96658e662",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/KuKuBar.sol": {
+      "lastModificationDate": 1626083910252,
+      "contentHash": "604ad3402659ee1149080e60e115cc54",
+      "sourceName": "contracts/KuKuBar.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KuKuBar"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/interfaces/IMasterChef.sol": {
+      "lastModificationDate": 1626080848183,
+      "contentHash": "2f16c308d770ef609ed6fa9624c14221",
+      "sourceName": "contracts/interfaces/IMasterChef.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@boringcrypto/boring-solidity/contracts/libraries/BoringERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IMasterChef"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@boringcrypto/boring-solidity/contracts/libraries/BoringERC20.sol": {
+      "lastModificationDate": 1626083707462,
+      "contentHash": "a4d43d9bcdfe02388479f9397ee036e1",
+      "sourceName": "@boringcrypto/boring-solidity/contracts/libraries/BoringERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "BoringERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@boringcrypto/boring-solidity/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1626083707462,
+      "contentHash": "42230f2725522218364239f02170f9bc",
+      "sourceName": "@boringcrypto/boring-solidity/contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/MasterChefV2.sol": {
+      "lastModificationDate": 1626083375340,
+      "contentHash": "d8e65fb7f6869a0cff1ec88cf8d918bb",
+      "sourceName": "contracts/MasterChefV2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
+        "@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
+        "@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
+        "./libraries/SignedSafeMath.sol",
+        "./interfaces/IRewarder.sol",
+        "./interfaces/IMasterChef.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IMigratorChef",
+        "MasterChefV2"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol": {
+      "lastModificationDate": 1626083707462,
+      "contentHash": "880eac69aa64dae6e3b5585d6b1164cc",
+      "sourceName": "@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "BoringMath",
+        "BoringMath128",
+        "BoringMath32",
+        "BoringMath64"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@boringcrypto/boring-solidity/contracts/BoringBatchable.sol": {
+      "lastModificationDate": 1626083707461,
+      "contentHash": "64e4fb4508b3991be44578643e52fb11",
+      "sourceName": "@boringcrypto/boring-solidity/contracts/BoringBatchable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./libraries/BoringERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "BaseBoringBatchable",
+        "BoringBatchable"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/node_modules/@boringcrypto/boring-solidity/contracts/BoringOwnable.sol": {
+      "lastModificationDate": 1626083707461,
+      "contentHash": "4346e0680c1e891cb927a5c507248bcd",
+      "sourceName": "@boringcrypto/boring-solidity/contracts/BoringOwnable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "BoringOwnable",
+        "BoringOwnableData"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/libraries/SignedSafeMath.sol": {
+      "lastModificationDate": 1626080848183,
+      "contentHash": "d58086c3fc86bde8e153086973923a9a",
+      "sourceName": "contracts/libraries/SignedSafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SignedSafeMath"
+      ]
+    },
+    "/Users/alexandermazaletskiy/Documents/Upwork/kukuswap/kukuswap-core/contracts/interfaces/IRewarder.sol": {
+      "lastModificationDate": 1626080848183,
+      "contentHash": "92a333957c579147ebbb7cf1d70e5ef2",
+      "sourceName": "contracts/interfaces/IRewarder.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@boringcrypto/boring-solidity/contracts/libraries/BoringERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IRewarder"
+      ]
+    }
+  }
+}
